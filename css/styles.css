@@ -1,0 +1,39 @@
+body{
+    padding: 60px;
+}
+
+@media (max-width:768px) {
+    .main {
+        margin-top:0;
+    }
+    .fixed-top {
+        position:static;
+    }
+    body{
+        padding: 10px;
+    }
+} 
+
+
+nav{
+    padding: 0;
+    position: relative;
+}
+
+#NavbarSupportedContent{
+    padding: 0;
+}
+
+#NavbarHidden{
+    display: block;
+    clear: both;
+    text:orange;
+}
+
+.nav-item{    
+    background-color: lightcyan;
+    padding: 0;
+    border:1px solid black; 
+    
+}
+
